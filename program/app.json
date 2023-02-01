@@ -1,6 +1,9 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/clock/clock",
+    "pages/ChengJiu/ChengJiu",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -8,6 +11,34 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
-  "style": "v2",
+  "tabBar":{
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [{
+      "selectedIconPath": "image/list_2.png",
+      "iconPath": "image/list_1.png",
+      "pagePath":"pages/index/index",
+      "text": "首页"
+    },
+    {
+      "selectedIconPath": "image/clock_2.png",
+      "iconPath": "image/clock_1.png",
+      "pagePath":"pages/clock/clock",
+      "text": "计时"
+    },
+    {
+      "selectedIconPath": "image/ChengJiu_2.png",
+      "iconPath": "image/ChengJiu_1.png",
+      "pagePath":"pages/ChengJiu/ChengJiu",
+      "text": "成就"
+    },
+    {
+      "selectedIconPath": "image/me_2.png",
+      "iconPath": "image/me_1.png",
+      "pagePath":"pages/me/me",
+      "text": "个人中心"
+    }]
+  },
   "sitemapLocation": "sitemap.json"
 }

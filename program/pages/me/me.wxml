@@ -1,0 +1,27 @@
+<!-- 授权登录按钮 -->
+<button wx:if="{{!userInfo}}" bindtap="login" type="primary">授权登录</button>
+
+<!-- 显示头像昵称和退出登录 -->
+<view wx:else class="root">
+  <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+  <text class="nicheng">{{userInfo.nickName}}</text>
+  <text class="login_out" type="warn" bindtap="loginOut">退出登录</text>
+</view>
+
+<!-- "关于我们"条目-->
+<view class="item">
+  <text>关于我们</text>
+  <view class="right_arrow"></view>
+</view>
+<!-- "反馈建议"条目 -->
+<view class="item">
+  <button class="button" open-type="feedback">反馈建议</button>
+  <view class="right_arrow"></view>
+</view>
+<!-- "在线客服"条目 -->
+<view class="item">
+  <button class="button" open-type="contact">在线客服</button>
+  <view class="right_arrow"></view>
+</view>
+
+

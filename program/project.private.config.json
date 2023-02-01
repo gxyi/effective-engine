@@ -3,5 +3,19 @@
   "projectname": "program",
   "setting": {
     "compileHotReLoad": true
+  },
+  "libVersion": "2.29.2",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/me/me",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
