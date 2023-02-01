@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/clock/clock",
     "pages/ChengJiu/ChengJiu",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/Time_Setting/Time_Setting"
   ],
   "window":{
     "backgroundTextStyle":"light",
