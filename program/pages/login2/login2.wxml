@@ -1,0 +1,18 @@
+<!-- 顶部logo区域 -->
+<view class="top">
+  <image class="logo" src="/image/touxiang.png"></image>
+  <view>小程序登录</view>
+</view>
+<!-- 输入区域 -->
+<view class="item">
+  <view>id号：</view>
+  <input placeholder="请输入您的id号" bindinput="getPhone" />
+</view>
+<view class="item">
+  <view>密码：</view>
+  <input placeholder="请输入您的密码" bindinput="getPsw" />
+</view>
+<!-- 登录按钮 -->
+<button class="btn" bindtap='login'>登录</button>
+<!-- 注册 -->
+<view class="zhuce" bindtap="register">暂时无账号？点击去注册</view>

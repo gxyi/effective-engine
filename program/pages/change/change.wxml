@@ -1,0 +1,9 @@
+<view class="item">
+  <view class="tip">编辑昵称</view>
+  <input value="{{user.nickName}}" bindinput="getName"></input>
+</view>
+<view class="item" bindtap="chooseImg">
+  <view class="tip">点击修改头像</view>
+  <image class="img" src="{{avatarUrl}}"></image>
+</view>
+<button class="btn" bindtap="submit">提交修改</button>

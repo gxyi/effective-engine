@@ -1,58 +1,63 @@
-/* 头像昵称和退出登录按钮居中 */
-.root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 400rpx;
-  background:#1296db;
+page{
+  background: #1296db;
 }
-/* 头像设置为圆形 */
-.touxiang {
+/* 头部区域 */
+.top_root{
+  display: flex;
+  align-items: center;
+  margin: 40rpx;
+}
+.top_img{
   width: 200rpx;
   height: 200rpx;
   border-radius: 50%;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
+  margin-right: 40rpx;
 }
-/* 退出登录 */
+.top_name{
+  font-size: 44rpx;
+  color: white;
+}
 .login_out{
-  font-size: 30rpx;
-  color:black;
-  margin-top: 15rpx;
+  font-size: 33rpx;
+  margin-top: 20rpx;
+  color:rgb(168, 168, 168);
 }
-/* 条例的框 */
+/* 条目 */
 .item{
-  background: white;
-  padding: 25rpx;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid gainsboro;
-}
-/* 去除button的边框 */
-.button{
-  width: 100%;
+  height: 90rpx;
   background: white;
-  border: none;
-  text-align: left;
-  padding: 0px;
-  margin: 0px;
-  line-height: 1.3;
-  font-size: 16px;
+  border-bottom: 2rpx solid #1296db;
 }
-/* 去除button的边框 */
-.button::after{
-  border: none;
-  border-radius: 0;
+.item_name{
+  font-size: 40rpx;
+  margin-left: 30rpx;
 }
-/* 箭头 */
 .right_arrow{
   border: solid black;
   border-width: 0 3px 3px 0;
   padding: 3px;
   position: absolute;
   right: 15px;
-  transform:rotate(-45deg);
+  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
-
+button{
+  width: 100%;
+  background: white;
+  border: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 40rpx;
+}
+button::after{
+  border: none;
+  border-radius: 0;
+}
+.button_hover{
+  color: black;
+  background-color: #fff;
+}

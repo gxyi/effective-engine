@@ -1,0 +1,20 @@
+.root{
+  margin-left: 50rpx;
+  margin-top: 70rpx;
+}
+.item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.item input{
+  border-bottom: 1px solid gray;
+  padding: 15rpx;
+}
+.btn{
+  margin: 50rpx;
+  background: #2E8B57;
+  color: white;
+  /* 给按钮设置圆角符号 */
+  border-radius: 60rpx;
+}

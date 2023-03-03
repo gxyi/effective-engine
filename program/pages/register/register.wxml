@@ -1,0 +1,18 @@
+<form bindsubmit="register">
+  <view class="root">
+    <view class="item">
+      <text>id号：</text>
+      <input placeholder="请设置您的id" name='phone'/>
+    </view>
+    <view class="item">
+      <text>密码：</text>
+      <input placeholder="请输入您的密码" name='password'/>
+    </view>
+    <view class="item">
+      <text>姓名：</text>
+      <input placeholder="请输入您的姓名" name='name'/>
+    </view>
+    <button class="btn" form-type="submit">注册</button>
+  </view>
+</form>
+

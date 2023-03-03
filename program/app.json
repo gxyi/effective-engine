@@ -4,6 +4,9 @@
     "pages/clock/clock",
     "pages/ChengJiu/ChengJiu",
     "pages/me/me",
+    "pages/login2/login2",
+    "pages/register/register",
+    "pages/change/change",
     "pages/Time_Setting/Time_Setting"
   ],
   "window":{
